@@ -9,10 +9,10 @@ const Hero = () => {
           <Col lg={6}>
             <div className="pr-lg-5">
               <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">café</p>
-              <h1 className="mb-4 font-weight-normal line-height-1_4">Solução de rastreabilidade é na <span className="text-primary font-weight-medium">COFID</span></h1>
+              <h1 className="mb-4 font-weight-normal line-height-1_4">Solução de rastreabilidade é na <span className="text-primary font-weight-medium">COFFID</span></h1>
               <p className="text-muted mb-4 pb-2">Nosso objetivo é aproximar produtor de café com o consumidor desse grão que é amado por todos os brasileiros.</p>
               <a href="https://forms.gle/Podm4UBuRLtYczEb6" className="btn btn-warning">
-                Responda o nosso questionário para entrar na lista de espera <span className="ml-2 right-icon">&#8594;</span>
+                Quero entrar na lista de espera <span className="ml-2 right-icon">&#8594;</span>
               </a>
             </div>
           </Col>
