@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image'
 const Hero = () => {
   return (
     <section className="section position-relative">
@@ -7,17 +8,17 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Lorem Ipsum</p>
-              <h1 className="mb-4 font-weight-normal line-height-1_4">Simply dummy text of the printing <span className="text-primary font-weight-medium">Name</span></h1>
-              <p className="text-muted mb-4 pb-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a href="#" className="btn btn-warning">
-                Find Out How <span className="ml-2 right-icon">&#8594;</span>
+              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">café</p>
+              <h1 className="mb-4 font-weight-normal line-height-1_4">Solução de rastreabilidade é na <span className="text-primary font-weight-medium">COFID</span></h1>
+              <p className="text-muted mb-4 pb-2">Nosso objetivo é aproximar produtor de café com o consumidor desse grão que é amado por todos os brasileiros.</p>
+              <a href="https://forms.gle/Podm4UBuRLtYczEb6" className="btn btn-warning">
+                Responda o nosso questionário para entrar na lista de espera <span className="ml-2 right-icon">&#8594;</span>
               </a>
             </div>
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0">
-              <img src="/images/Group Members.png" alt="" className="img-fluid mx-auto d-block"/>
+              <Image src="/images/codde3.png" width="350px" height="550px" alt="" className="img-fluid mx-auto d-block"/>
             </div>
           </Col>
         </Row>
