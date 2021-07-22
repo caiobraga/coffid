@@ -17,7 +17,7 @@ const Service = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Serviços oferecidos</span></h3>
-              <p className="text-muted">Saiba mais sobre os serviços que fornecemos</p>
+              <p className="text-muted"> Saiba mais sobre os serviços que fornecemos</p>
             </div>
           </Col>
         </Row>
