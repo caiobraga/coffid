@@ -1,6 +1,8 @@
 <h1>coffid</h1> 
 
-
+<p align="center">
+  <img src="public/images/imagem1.png" alt="Screenshot">
+</p>
 
 
 > Status do Projeto: :heavy_check_mark: :warning: concluido
